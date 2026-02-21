@@ -1,0 +1,224 @@
+:root {
+  --ifm-font-family-base: 'Source Han Serif SC', 'Noto Serif CJK SC', 'Noto Serif SC',
+    Georgia, serif;
+  --ifm-heading-font-family: 'Source Han Sans SC', 'Noto Sans CJK SC', 'Noto Sans SC',
+    'PingFang SC', sans-serif;
+  --ifm-color-primary: #9f2f1d;
+  --ifm-color-primary-dark: #8c2919;
+  --ifm-color-primary-darker: #852718;
+  --ifm-color-primary-darkest: #6e2014;
+  --ifm-color-primary-light: #b23521;
+  --ifm-color-primary-lighter: #bb3924;
+  --ifm-color-primary-lightest: #d1452f;
+  --ifm-background-color: #f6f1e8;
+  --ifm-code-font-size: 93%;
+  --ifm-table-stripe-background: transparent;
+  --docusaurus-highlighted-code-line-bg: rgba(159, 47, 29, 0.1);
+  --content-surface: #f6f1e8;
+}
+
+html,
+body {
+  background: var(--ifm-background-color);
+}
+
+.theme-doc-sidebar-container {
+  display: none !important;
+}
+
+main[class*='docMainContainer_'] {
+  max-width: 100% !important;
+}
+
+main[class*='docMainContainer_'] .container {
+  max-width: 1320px;
+  margin-inline: auto;
+}
+
+main[class*='docMainContainer_'] .container > .row {
+  justify-content: center;
+}
+
+main[class*='docMainContainer_'] .container > .row > .col {
+  max-width: 100% !important;
+}
+
+.theme-doc-markdown {
+  margin-inline: auto;
+  max-width: 100%;
+  font-size: 1.03rem;
+  line-height: 1.85;
+  background: var(--content-surface);
+  border: 1px solid rgba(122, 94, 62, 0.18);
+  border-radius: 14px;
+  padding: 1.15rem 1.3rem;
+}
+
+.theme-doc-markdown h1,
+.theme-doc-markdown h2,
+.theme-doc-markdown h3 {
+  font-family: var(--ifm-heading-font-family);
+  letter-spacing: 0.02em;
+  line-height: 1.25;
+}
+
+.theme-doc-markdown h1 {
+  font-size: 2.35rem;
+  margin-top: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+.theme-doc-markdown p,
+.theme-doc-markdown li {
+  color: #2b2620;
+}
+
+.theme-doc-markdown a {
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.15em;
+  transition: color 180ms ease;
+}
+
+.theme-doc-markdown a:hover {
+  color: #7d2517;
+}
+
+.theme-doc-markdown table {
+  width: 100%;
+  max-width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border: 1px solid rgba(79, 62, 40, 0.22);
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--content-surface);
+}
+
+.theme-doc-markdown thead tr,
+.theme-doc-markdown tbody tr {
+  background: var(--content-surface);
+}
+
+.theme-doc-markdown th,
+.theme-doc-markdown td {
+  min-width: 0;
+  padding: 0.48rem 0.52rem;
+  border-color: rgba(79, 62, 40, 0.16);
+  word-break: break-word;
+  overflow-wrap: anywhere;
+  white-space: normal;
+  font-size: 0.9rem;
+  line-height: 1.35;
+  background: var(--content-surface);
+}
+
+/* Sort interaction for column 1 and 3 headers. */
+.theme-doc-markdown th.sortable-col {
+  cursor: pointer;
+  user-select: none;
+}
+
+.theme-doc-markdown th.sortable-col:hover {
+  background: rgba(159, 47, 29, 0.08);
+}
+
+.theme-doc-markdown th.sortable-col:focus-visible {
+  outline: 2px solid rgba(159, 47, 29, 0.55);
+  outline-offset: -2px;
+}
+
+.theme-doc-markdown th.sortable-col .sort-indicator {
+  margin-left: 0.35rem;
+  font-size: 0.76rem;
+  color: rgba(79, 62, 40, 0.7);
+}
+
+.theme-doc-markdown th.sortable-col.active-sort {
+  color: #7d2517;
+}
+
+.theme-doc-markdown th.sortable-col.active-sort .sort-indicator {
+  color: #7d2517;
+}
+
+/* Dense desktop column ratio for the 7-column price table. */
+.theme-doc-markdown th:nth-child(1),
+.theme-doc-markdown td:nth-child(1) {
+  width: 20%;
+}
+
+.theme-doc-markdown th:nth-child(2),
+.theme-doc-markdown td:nth-child(2) {
+  width: 8%;
+}
+
+.theme-doc-markdown th:nth-child(3),
+.theme-doc-markdown td:nth-child(3) {
+  width: 9%;
+}
+
+.theme-doc-markdown th:nth-child(4),
+.theme-doc-markdown td:nth-child(4) {
+  width: 8%;
+}
+
+.theme-doc-markdown th:nth-child(5),
+.theme-doc-markdown td:nth-child(5) {
+  width: 8%;
+}
+
+.theme-doc-markdown th:nth-child(6),
+.theme-doc-markdown td:nth-child(6) {
+  width: 34%;
+}
+
+.theme-doc-markdown th:nth-child(7),
+.theme-doc-markdown td:nth-child(7) {
+  width: 13%;
+}
+
+.theme-doc-markdown blockquote {
+  border-left: 3px solid rgba(159, 47, 29, 0.52);
+  background: rgba(255, 255, 255, 0.45);
+  border-radius: 0 8px 8px 0;
+  padding: 0.35rem 1rem;
+}
+
+.theme-doc-markdown code {
+  border: 1px solid rgba(159, 47, 29, 0.25);
+}
+
+.theme-doc-breadcrumbs {
+  display: none !important;
+}
+
+@media (max-width: 996px) {
+  main[class*='docMainContainer_'] .container {
+    max-width: min(100%, 1320px);
+    padding-inline: 1rem;
+  }
+
+  .theme-doc-markdown {
+    font-size: 0.98rem;
+    line-height: 1.72;
+    padding: 0.95rem 0.9rem;
+  }
+
+  .theme-doc-markdown h1 {
+    font-size: 1.95rem;
+  }
+
+  .theme-doc-markdown table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    table-layout: auto;
+  }
+
+  .theme-doc-markdown th,
+  .theme-doc-markdown td {
+    min-width: 100px;
+    padding: 0.44rem 0.48rem;
+    font-size: 0.84rem;
+  }
+}
