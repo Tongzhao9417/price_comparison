@@ -22,19 +22,30 @@ slug: /
 |:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
 |[AnyRouter](https://anyrouter.top/register?aff=fj4o)|公益站|25|0|1|0x|每日登录签到，基线|每天都在用|
 |[iKun（鸡）](https://api.ikuncode.cc/register?aff=1izN)|富可敌国|37.5|1$ = 1¥|1.5|1.5x||共充值10元|
-|[Tiger（虎）](https://tiger.bookapi.cc/ref/C5E3)|富可敌国|13.65|1$ = 1.3¥|0.7|0.546x|最低充值50|共充值50元|
+|[Tiger（虎）](https://tiger.bookapi.cc/ref/C5E3)|富可敌国|22.75|1$ = 1.3¥|0.7|0.91x|最低充值50|共充值50元|
 |[RightCode](https://www.right.codes/register?aff=7845fdb4)|富可敌国|25|1$ = 0.2¥|5|1x|官渠暂时不可用<br />|小股东套餐使用中，共充值13元|
 |[DuckCoding（鸭）](https://duckcoding.com/register?aff=pQIu)|富可敌国|32.5|1$ = 1¥|1.3|1.3x|主站可签到，令有[公益站](https://free.duckcoding.com/register?aff=ZRcQ)，kiro反代|无|
-|[NekoCode](https://nekocode.ai?aff=TRPTNGM8)|富可敌国|12.46|1$ = 1¥|1|0.5x|订阅制<br />本统计按Pro套餐计算（299¥/月，可使用600$）|无|
+|[NekoCode](https://nekocode.ai?aff=TRPTNGM8)|富可敌国|12.5|1$ = 1¥|1|0.5x|订阅制<br />本统计按Pro套餐计算（299¥/月，可使用600$）|无|
 |[HorseCoding（马）](https://www.horsecoding.cc)|富可敌国|20|1$ = 0.8¥|1|0.8x|~~刚开业，优惠价为0.7RMB1刀~~|无|
-|[PackyCode（老农）](https://www.packyapi.com/register?aff=grZq)|富可敌国|22.5|1$ = 1¥|1.5|0.9x|他家有cc分组和claude-offical分组，我这里是按照cc分组来统计的|无|
-|[Cubence(鹅)](https://cubence.com/signup?code=SCTG7GCQ)|富可敌国|25|1$ = 1¥|1|1|最低充值30|无|
+|[PackyCode（老农）](https://www.packyapi.com/register?aff=grZq)|富可敌国|37.5|1$ = 1¥|1.5|1.5x|他家有cc分组和claude-offical分组，我这里是按照cc分组来统计的|无|
+|[Cubence(鹅)](https://cubence.com/signup?code=SCTG7GCQ)|富可敌国|25|1$ = 1¥|1|1x|最低充值30|无|
 |[YesCode](https://co.yes.vg/register?ref=TongZhao)|富可敌国|16.67|实时汇率|1|0.67x|9.9刀按量、另有订阅<br />根据[官方说法](https://linux.do/t/topic/1510513/8?u=tongzhao)订阅 0.75 CNY/USD，按量 1.5 CNY/USD <br />春节期间倍率为0.7，本统计按日常价格计算。<br />有日限/周限|购买19.9套餐|
-|[FoxCode(狐狸)](https://foxcode.rjj.cc/auth/register?aff=6W5J31UI)|富可敌国|52.5|1$ = 0.35¥|2.1|2.1x|无|无|
+|[FoxCode(狐狸)](https://foxcode.rjj.cc/auth/register?aff=6W5J31UI)|富可敌国|52.5(模拟)|1$ = 0.35¥|/|2.1x|以fox飞书260218文档为基准 35¥=100$|无|
+|[FoxCode(狐狸)](https://foxcode.rjj.cc/auth/register?aff=6W5J31UI)|富可敌国|40.5(模拟)|1$ = 0.27¥|/|1.6x|以fox飞书260218文档为基准 135¥=500$|无|
+|[FoxCode(狐狸)](https://foxcode.rjj.cc/auth/register?aff=6W5J31UI)|富可敌国|34.5(模拟)|1$=0.23¥|/|1.4x|以fox飞书260218文档为基准 468¥=2000$|无|
 |linkflow|富可敌国|13.75|包月套餐，最低档220¥=400$，汇率为0.55。<br /> 另有按量，1¥=1$|1|0.55x|需私聊上车，[站内地址](https://linux.do/t/topic/1092606)|无|
 
 以上仅供参考，欢迎纠错、补充
 
+---
+
+真实倍率使用“统一基准法”，以 ¥1 = $1 为基准公式：
+
+真实倍率（成本倍率）= r × m （其中 1$ = r¥，官渠分组倍率 = m）
+
+例子：
+
+真实倍率（成本倍率） = r × m  =1 × 1.5 = 1.5x
 
 <div id="visit-counter" class="visit-counter" hidden>
   <span class="visit-counter__label">访问统计：</span>
