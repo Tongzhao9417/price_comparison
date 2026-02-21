@@ -25,9 +25,24 @@ def fail(message: str) -> None:
     raise SystemExit(message)
 
 
+def normalize_float(value: float) -> str:
+    text = format(value, '.15g')
+    if 'e' in text or 'E' in text:
+        text = format(value, '.15f').rstrip('0').rstrip('.')
+    if text == '-0':
+        return '0'
+    return text
+
+
 def normalize_cell(value: object) -> str:
     if value is None:
         return ''
+    if isinstance(value, bool):
+        return str(value)
+    if isinstance(value, int):
+        return str(value)
+    if isinstance(value, float):
+        return normalize_float(value)
     return str(value).strip()
 
 
