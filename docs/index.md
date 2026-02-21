@@ -31,7 +31,7 @@ slug: /
 |[PackyCode（老农）](https://www.packyapi.com/register?aff=grZq)|富可敌国|37.5|1|1.5|1.5|50|他家有cc分组和claude-offical分组，我这里是按照cc分组来统计的|无|
 |[Cubence(鹅)](https://cubence.com/signup?code=SCTG7GCQ)|富可敌国|25|1|1|1|30|最低充值30|无|
 |[YesCode](https://co.yes.vg/register?ref=TongZhao)|富可敌国|18.75|0.75|1|0.75|140|9.9刀按量、另有订阅<br />根据[官方说法](https://linux.do/t/topic/1510513/8?u=tongzhao)订阅 0.75 CNY/USD，按量 1.5 CNY/USD <br />春节期间倍率为0.7，本统计按日常价格计算。<br />有日限/周限|购买19.9套餐|
-|[FoxCode(狐狸)](https://foxcode.rjj.cc/auth/register?aff=6W5J31UI)|富可敌国|18.375|0.35|2.1|0.735|15|无|无|
+|[FoxCode(狐狸)](https://foxcode.rjj.cc/auth/register?aff=6W5J31UI)|富可敌国|112.5|0.75|6|4.5|15|无|无|
 |linkflow|富可敌国|13.75|0.55|1|0.55|220|需私聊上车，[站内地址](https://linux.do/t/topic/1092606)|无|
 <!-- relay-table:end -->
 
