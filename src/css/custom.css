@@ -112,7 +112,7 @@ main[class*='docMainContainer_'] .container > .row > .col {
   background: var(--content-surface);
 }
 
-/* Sort interaction for column 1 and 3 headers. */
+/* Sort interaction for column 1, 3, and 6 headers. */
 .theme-doc-markdown th.sortable-col {
   cursor: pointer;
   user-select: none;
@@ -141,25 +141,25 @@ main[class*='docMainContainer_'] .container > .row > .col {
   color: #7d2517;
 }
 
-/* Dense desktop column ratio for the 7-column price table. */
+/* Dense desktop column ratio for the 8-column price table. */
 .theme-doc-markdown th:nth-child(1),
 .theme-doc-markdown td:nth-child(1) {
-  width: 20%;
+  width: 18%;
 }
 
 .theme-doc-markdown th:nth-child(2),
 .theme-doc-markdown td:nth-child(2) {
-  width: 8%;
+  width: 7%;
 }
 
 .theme-doc-markdown th:nth-child(3),
 .theme-doc-markdown td:nth-child(3) {
-  width: 9%;
+  width: 8%;
 }
 
 .theme-doc-markdown th:nth-child(4),
 .theme-doc-markdown td:nth-child(4) {
-  width: 8%;
+  width: 12%;
 }
 
 .theme-doc-markdown th:nth-child(5),
@@ -169,12 +169,17 @@ main[class*='docMainContainer_'] .container > .row > .col {
 
 .theme-doc-markdown th:nth-child(6),
 .theme-doc-markdown td:nth-child(6) {
-  width: 34%;
+  width: 9%;
 }
 
 .theme-doc-markdown th:nth-child(7),
 .theme-doc-markdown td:nth-child(7) {
-  width: 13%;
+  width: 27%;
+}
+
+.theme-doc-markdown th:nth-child(8),
+.theme-doc-markdown td:nth-child(8) {
+  width: 11%;
 }
 
 .theme-doc-markdown blockquote {

@@ -1,5 +1,6 @@
 (function () {
-  const SORTABLE_COLUMNS = [0, 2];
+  const SORTABLE_COLUMNS = [0, 2, 5];
+  const NUMERIC_SORT_COLUMNS = [2, 5];
   const ICONS = {
     none: '↕',
     asc: '▲',
@@ -24,7 +25,7 @@
     return cell ? (cell.textContent || '').trim() : '';
   }
 
-  function parsePriceValue(text) {
+  function parseNumericValue(text) {
     const normalized = text.replace(/,/g, '');
     const match = normalized.match(/-?\d+(?:\.\d+)?/);
     return match ? Number(match[0]) : Number.NaN;
@@ -40,9 +41,9 @@
     return direction === 'asc' ? result : -result;
   }
 
-  function comparePriceRows(aRow, bRow, columnIndex, direction) {
-    const aValue = parsePriceValue(getCellText(aRow, columnIndex));
-    const bValue = parsePriceValue(getCellText(bRow, columnIndex));
+  function compareNumericRows(aRow, bRow, columnIndex, direction) {
+    const aValue = parseNumericValue(getCellText(aRow, columnIndex));
+    const bValue = parseNumericValue(getCellText(bRow, columnIndex));
     const aValid = Number.isFinite(aValue);
     const bValid = Number.isFinite(bValue);
 
@@ -129,9 +130,9 @@
 
     const rows = Array.from(tbody.rows);
     const comparator =
-      columnIndex === 2
+      NUMERIC_SORT_COLUMNS.includes(columnIndex)
         ? function (aRow, bRow) {
-            return comparePriceRows(aRow, bRow, columnIndex, nextDirection);
+            return compareNumericRows(aRow, bRow, columnIndex, nextDirection);
           }
         : function (aRow, bRow) {
             return compareTextRows(aRow, bRow, columnIndex, nextDirection);
