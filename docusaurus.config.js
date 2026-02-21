@@ -2,9 +2,9 @@
 
 import {themes as prismThemes} from 'prism-react-renderer';
 
-const githubOwner = process.env.GITHUB_OWNER ?? 'your-github-username';
-const githubRepository = process.env.GITHUB_REPOSITORY ?? `${githubOwner}/your-repo-name`;
-const projectName = githubRepository.split('/')[1] ?? 'your-repo-name';
+const githubOwner = process.env.GITHUB_OWNER ?? 'Tongzhao9417';
+const githubRepository = process.env.GITHUB_REPOSITORY ?? 'Tongzhao9417/price_comparison';
+const projectName = githubRepository.split('/')[1] ?? 'price_comparison';
 const isGitHubActions = process.env.GITHUB_ACTIONS === 'true';
 
 /** @type {import('@docusaurus/types').Config} */
