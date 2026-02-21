@@ -34,3 +34,14 @@ slug: /
 |linkflow|富可敌国|13.75|包月套餐，最低档220¥=400$，汇率为0.55。<br /> 另有按量，1¥=1$|1|0.55x|需私聊上车，[站内地址](https://linux.do/t/topic/1092606)|无|
 
 以上仅供参考，欢迎纠错、补充
+
+
+<div id="visit-counter" class="visit-counter" hidden>
+  <span class="visit-counter__label">访问统计：</span>
+  <span id="busuanzi_container_site_pv" class="visit-counter__metric">
+    总访问量 <span id="busuanzi_value_site_pv">--</span>
+  </span>
+  <span id="busuanzi_container_site_uv" class="visit-counter__metric">
+    总访客数 <span id="busuanzi_value_site_uv">--</span>
+  </span>
+</div>

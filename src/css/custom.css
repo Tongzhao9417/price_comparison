@@ -182,6 +182,42 @@ main[class*='docMainContainer_'] .container > .row > .col {
   width: 11%;
 }
 
+.visit-counter {
+  margin-top: 1.2rem;
+  padding-top: 0.9rem;
+  border-top: 1px dashed rgba(79, 62, 40, 0.28);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.75rem;
+  font-size: 0.82rem;
+  line-height: 1.32;
+  color: rgba(43, 38, 32, 0.72);
+}
+
+.visit-counter__label,
+.visit-counter__metric {
+  display: inline-flex;
+  align-items: baseline;
+  line-height: 1.32;
+  white-space: nowrap;
+}
+
+.visit-counter__label {
+  font-weight: 600;
+  color: rgba(43, 38, 32, 0.82);
+}
+
+.visit-counter__metric {
+  gap: 0.24rem;
+}
+
+.visit-counter__metric > span {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  color: #7d2517;
+}
+
 .theme-doc-markdown blockquote {
   border-left: 3px solid rgba(159, 47, 29, 0.52);
   background: rgba(255, 255, 255, 0.45);
@@ -213,6 +249,12 @@ main[class*='docMainContainer_'] .container > .row > .col {
     font-size: 1.95rem;
   }
 
+  .visit-counter {
+    margin-top: 1rem;
+    padding-top: 0.75rem;
+    gap: 0.6rem;
+    font-size: 0.78rem;
+  }
   .theme-doc-markdown table {
     display: block;
     width: 100%;

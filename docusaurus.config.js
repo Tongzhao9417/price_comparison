@@ -52,7 +52,7 @@ const config = {
     ],
   ],
 
-  scripts: ['js/table-sort-v2.js'],
+  scripts: ['js/table-sort-v2.js', 'js/busuanzi-counter.js'],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
