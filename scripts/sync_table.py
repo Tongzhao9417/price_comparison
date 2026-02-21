@@ -18,7 +18,6 @@ CSV_PATH = REPO_ROOT / 'data' / 'relay_table.csv'
 DOC_PATH = REPO_ROOT / 'docs' / 'index.md'
 START_MARKER = '<!-- relay-table:start -->'
 END_MARKER = '<!-- relay-table:end -->'
-EXPECTED_COLUMN_COUNT = 8
 
 
 def fail(message: str) -> None:
@@ -26,6 +25,7 @@ def fail(message: str) -> None:
 
 
 def normalize_float(value: float) -> str:
+    # Avoid floating-point noise like 13.750000000000002 from formula cells.
     text = format(value, '.15g')
     if 'e' in text or 'E' in text:
         text = format(value, '.15f').rstrip('0').rstrip('.')
@@ -68,22 +68,29 @@ def parse_matrix(matrix: list[list[object]], source_name: str) -> tuple[list[str
         fail(f'{source_name} has no non-empty rows.')
 
     header = normalized_rows[0]
-    if len(header) != EXPECTED_COLUMN_COUNT:
-        fail(
-            f'{source_name} header must have exactly {EXPECTED_COLUMN_COUNT} columns, '
-            f'got {len(header)}.'
-        )
+    if not header:
+        fail(f'{source_name} header row is empty.')
 
     if any(cell == '' for cell in header):
         fail(f'{source_name} header contains empty column names.')
 
+    header_column_count = len(header)
+
     data_rows: list[list[str]] = []
     for row_number, row in enumerate(normalized_rows[1:], start=2):
-        padded_row = (row + [''] * EXPECTED_COLUMN_COUNT)[:EXPECTED_COLUMN_COUNT]
+        if len(row) > header_column_count:
+            fail(
+                f'{source_name} row {row_number} has {len(row)} columns, '
+                f'but header has {header_column_count}. Please fill header cells for new columns.'
+            )
+
+        padded_row = row + [''] * (header_column_count - len(row))
         if all(cell == '' for cell in padded_row):
             continue
+
         if padded_row[0] == '':
             fail(f'{source_name} row {row_number}: first column cannot be empty.')
+
         data_rows.append(padded_row)
 
     if not data_rows:

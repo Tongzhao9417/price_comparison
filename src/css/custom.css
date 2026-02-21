@@ -86,7 +86,7 @@ main[class*='docMainContainer_'] .container > .row > .col {
 .theme-doc-markdown table {
   width: 100%;
   max-width: 100%;
-  table-layout: fixed;
+  table-layout: auto;
   border-collapse: collapse;
   border: 1px solid rgba(79, 62, 40, 0.22);
   border-radius: 10px;
@@ -102,6 +102,7 @@ main[class*='docMainContainer_'] .container > .row > .col {
 .theme-doc-markdown th,
 .theme-doc-markdown td {
   min-width: 0;
+  width: auto;
   padding: 0.48rem 0.52rem;
   border-color: rgba(79, 62, 40, 0.16);
   word-break: break-word;
@@ -141,46 +142,6 @@ main[class*='docMainContainer_'] .container > .row > .col {
   color: #7d2517;
 }
 
-/* Dense desktop column ratio for the 8-column price table. */
-.theme-doc-markdown th:nth-child(1),
-.theme-doc-markdown td:nth-child(1) {
-  width: 18%;
-}
-
-.theme-doc-markdown th:nth-child(2),
-.theme-doc-markdown td:nth-child(2) {
-  width: 7%;
-}
-
-.theme-doc-markdown th:nth-child(3),
-.theme-doc-markdown td:nth-child(3) {
-  width: 8%;
-}
-
-.theme-doc-markdown th:nth-child(4),
-.theme-doc-markdown td:nth-child(4) {
-  width: 12%;
-}
-
-.theme-doc-markdown th:nth-child(5),
-.theme-doc-markdown td:nth-child(5) {
-  width: 8%;
-}
-
-.theme-doc-markdown th:nth-child(6),
-.theme-doc-markdown td:nth-child(6) {
-  width: 9%;
-}
-
-.theme-doc-markdown th:nth-child(7),
-.theme-doc-markdown td:nth-child(7) {
-  width: 27%;
-}
-
-.theme-doc-markdown th:nth-child(8),
-.theme-doc-markdown td:nth-child(8) {
-  width: 11%;
-}
 
 .visit-counter {
   margin-top: 1.2rem;
