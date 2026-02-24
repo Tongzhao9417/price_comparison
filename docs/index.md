@@ -23,11 +23,11 @@ slug: /
 |:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
 |[AnyRouter](https://anyrouter.top/register?aff=fj4o)|公益站|25|0|1|0|0|每日登录签到，基线|每天都在用|
 |[iKun（鸡）](https://api.ikuncode.cc/register?aff=1izN)|富可敌国|37.5|1|1.5|1.5|1||共充值10元|
-|[Tiger（虎）](https://tiger.bookapi.cc/ref/C5E3)|富可敌国|22.75|1.3|0.7|0.91|100|最低充值50|共充值50元|
-|[RightCode](https://www.right.codes/register?aff=7845fdb4)|富可敌国|25|0.2|5|1|1|官渠暂时不可用<br />|小股东套餐使用中，共充值13元|
+|[Tiger（虎）](https://tiger.bookapi.cc/ref/C5E3)|富可敌国|22.75|1.3|0.7|0.91|100|~~最低充值50~~最低充值100|共充值50元|
+|[RightCode](https://www.right.codes/register?aff=7845fdb4)|富可敌国|37.5|0.2|7.5|1.5|1|~~官渠暂时不可用~~ <br />官渠恢复，倍率调整至7.5|小股东套餐使用中，共充值13元|
 |[DuckCoding（鸭）](https://duckcoding.com/register?aff=pQIu)|富可敌国|32.5|1|1.3|1.3|1|主站可签到，令有[公益站](https://free.duckcoding.com/register?aff=ZRcQ)，kiro反代|无|
 |[NekoCode](https://nekocode.ai?aff=TRPTNGM8)|富可敌国|12.5|0.5|1|0.5|299|订阅制<br />本统计按Pro套餐计算（299¥/月，可使用600$）|无|
-|[HorseCoding（马）](https://www.horsecoding.cc)|富可敌国|20|0.8|1|0.8|20|~~刚开业，优惠价为0.7RMB1刀~~|无|
+|[HorseCoding（马）](https://www.horsecoding.cc)|富可敌国|25|1|1|1|20|~~刚开业，优惠价为0.7RMB1刀~~优惠结束，现汇率改为1|无|
 |[PackyCode（老农）](https://www.packyapi.com/register?aff=grZq)|富可敌国|37.5|1|1.5|1.5|50|他家有cc分组和claude-offical分组，我这里是按照cc分组来统计的|无|
 |[Cubence(鹅)](https://cubence.com/signup?code=SCTG7GCQ)|富可敌国|25|1|1|1|30|最低充值30|无|
 |[YesCode](https://co.yes.vg/register?ref=TongZhao)|富可敌国|18.75|0.75|1|0.75|140|9.9刀按量、另有订阅<br />根据[官方说法](https://linux.do/t/topic/1510513/8?u=tongzhao)订阅 0.75 CNY/USD，按量 1.5 CNY/USD <br />春节期间倍率为0.7，本统计按日常价格计算。<br />有日限/周限|购买19.9套餐|
