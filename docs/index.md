@@ -23,24 +23,28 @@ slug: /
 |:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
 |[AnyRouter](https://anyrouter.top/register?aff=fj4o)|公益站|25|0|1|0|0|每日登录签到，基线|每天都在用|
 |[iKun（鸡）](https://api.ikuncode.cc/register?aff=1izN)|富可敌国|37.5|1|1.5|1.5|1||共充值10元|
-|[Tiger（虎）](https://tiger.bookapi.cc/ref/C5E3)|富可敌国|21|1.2|0.7|0.84|100|~~最低充值50~~最低充值100|共充值50元|
+|[Tiger（虎）](https://tiger.bookapi.cc/ref/C5E3)|富可敌国|35|2|0.7|1.4|100|~~最低充值50~~最低充值100|共充值50元|
 |[RightCode](https://www.right.codes/register?aff=7845fdb4)|富可敌国|37.5|0.2|7.5|1.5|1|~~官渠暂时不可用~~ <br />官渠恢复，倍率调整至7.5|小股东套餐使用中，共充值13元|
-|[DuckCoding（鸭）](https://duckcoding.com/register?aff=pQIu)|富可敌国|32.5|1|1.3|1.3|1|主站可签到，令有[公益站](https://free.duckcoding.com/register?aff=ZRcQ)，kiro反代|无|
+|[DuckCoding（鸭）](https://duckcoding.com/register?aff=pQIu)|富可敌国|37.5|1|1.5|1.5|1|主站可签到，令有[公益站](https://free.duckcoding.com/register?aff=ZRcQ)，kiro反代|无|
 |[NekoCode](https://nekocode.ai?aff=TRPTNGM8)|富可敌国|12.5|0.5|1|0.5|299|订阅制<br />本统计按Pro套餐计算（299¥/月，可使用600$）|无|
-|[HorseCoding（马）](https://www.horsecoding.cc)|富可敌国|25|1|1|1|50|~~刚开业，优惠价为0.7RMB1刀~~优惠结束，现汇率改为1|无|
+|[HorseCoding（马）](https://www.horsecoding.cc)|富可敌国|30|1.2|1|1.2|50|~~刚开业，优惠价为0.7RMB1刀~~优惠结束，现汇率改为1|无|
 |[PackyCode（老农）](https://www.packyapi.com/register?aff=grZq)|富可敌国|37.5|1|1.5|1.5|50|他家有cc分组和claude-offical分组，我这里是按照cc分组来统计的|无|
-|[Cubence(鹅)](https://cubence.com/signup?code=SCTG7GCQ)|富可敌国|25|1|1|1|30|最低充值30|无|
+|[Cubence(鹅)](https://cubence.com/signup?code=SCTG7GCQ)|富可敌国|37.5|1|1.5|1.5|30|最低充值30|无|
 |[YesCode](https://co.yes.vg/register?ref=TongZhao)|富可敌国|18.75|0.75|1|0.75|140|9.9刀按量、另有订阅<br />根据[官方说法](https://linux.do/t/topic/1510513/8?u=tongzhao)订阅 0.75 CNY/USD，按量 1.5 CNY/USD <br />春节期间倍率为0.7，本统计按日常价格计算。<br />有日限/周限|购买19.9套餐|
 |[FoxCode(狐狸)](https://foxcode.rjj.cc/auth/register?aff=6W5J31UI)|富可敌国|150|0.75|6|4.5|15|无|无|
 |[FoxCode(狐狸)](https://foxcode.rjj.cc/auth/register?aff=6W5J31UI)|富可敌国|150|0.35|6|2.1|35|无|无|
 |[FoxCode(狐狸)](https://foxcode.rjj.cc/auth/register?aff=6W5J31UI)|富可敌国|150|0.27|6|1.62|135|无|无|
 |[FoxCode(狐狸)](https://foxcode.rjj.cc/auth/register?aff=6W5J31UI)|富可敌国|150|0.23|6|1.38|468|无|无|
 |linkflow|富可敌国|13.75|0.55|1|0.55|220|需私聊上车，[站内地址](https://linux.do/t/topic/1092606)|无|
+|[MonkingAI(猴)](https://www.monking.ai/register?aff=1kvd)|富可敌国|15|1|0.6|0.6|1|新开，后续价格可能会有波动||
 <!-- relay-table:end -->
 
 以上仅供参考，欢迎纠错、补充
 
 ## 更新日志
+3.3更新
+受上游影响，基本所有价格都有调整
+
 2.24更新
 1. 马家：汇率优惠结束（原0.8），恢复为1；最低充值恢复为50
 2. 虎家：开工优惠，汇率调整为1.2
